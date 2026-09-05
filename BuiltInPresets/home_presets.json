@@ -1,0 +1,5975 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "name": "Default",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "hasLightImage": false,
+    "hasDarkImage": false,
+    "lightDimming": 0,
+    "lightGlassVariant": 0,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0,
+    "lightGlassTintGreen": 0,
+    "lightGlassTintBlue": 0,
+    "lightGlassTintOpacity": 0.3,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0,
+    "darkGlassVariant": 0,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0,
+    "darkGlassTintGreen": 0,
+    "darkGlassTintBlue": 0,
+    "darkGlassTintOpacity": 0.3,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 0,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0,
+    "lightWidgetGlassTintGreen": 0,
+    "lightWidgetGlassTintBlue": 0,
+    "lightWidgetGlassTintOpacity": 0.3,
+    "darkWidgetGlassVariant": 0,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0,
+    "darkWidgetGlassTintGreen": 0,
+    "darkWidgetGlassTintBlue": 0,
+    "darkWidgetGlassTintOpacity": 0.3,
+    "lightColorCustomization": null,
+    "darkColorCustomization": null
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000007",
+    "name": "Coastal Waters",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "coastal-waters",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.95,
+    "lightGlassTintGreen": 0.85,
+    "lightGlassTintBlue": 0.75,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.25,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.15,
+    "darkGlassTintGreen": 0.2,
+    "darkGlassTintBlue": 0.32,
+    "darkGlassTintOpacity": 0.25,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.95,
+    "lightWidgetGlassTintGreen": 0.85,
+    "lightWidgetGlassTintBlue": 0.75,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.15,
+    "darkWidgetGlassTintGreen": 0.2,
+    "darkWidgetGlassTintBlue": 0.32,
+    "darkWidgetGlassTintOpacity": 0.28,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.09,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.293,
+            "green": 0.564,
+            "blue": 0.697,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.251,
+            "green": 0.483,
+            "blue": 0.597,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.184,
+            "green": 0.354,
+            "blue": 0.437,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.09,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.09,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.09,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.251,
+        "green": 0.483,
+        "blue": 0.597,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA000001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.293,
+            "green": 0.564,
+            "blue": 0.697,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA000001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.251,
+            "green": 0.483,
+            "blue": 0.597,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA000001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.184,
+            "green": 0.354,
+            "blue": 0.437,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.91,
+        "green": 0.95,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.343,
+            "green": 0.661,
+            "blue": 0.817,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.301,
+            "green": 0.58,
+            "blue": 0.717,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.234,
+            "green": 0.451,
+            "blue": 0.557,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.91,
+        "green": 0.95,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.91,
+        "green": 0.95,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.91,
+        "green": 0.95,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.301,
+        "green": 0.58,
+        "blue": 0.717,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA000D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.343,
+            "green": 0.661,
+            "blue": 0.817,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA000D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.301,
+            "green": 0.58,
+            "blue": 0.717,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA000D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.234,
+            "green": 0.451,
+            "blue": 0.557,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000008",
+    "name": "Verdant",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "verdant",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.82,
+    "lightGlassTintGreen": 0.92,
+    "lightGlassTintBlue": 0.72,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.28,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.12,
+    "darkGlassTintGreen": 0.15,
+    "darkGlassTintBlue": 0.12,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.82,
+    "lightWidgetGlassTintGreen": 0.92,
+    "lightWidgetGlassTintBlue": 0.72,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.12,
+    "darkWidgetGlassTintGreen": 0.15,
+    "darkWidgetGlassTintBlue": 0.12,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000201-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.294,
+            "green": 0.7,
+            "blue": 0.429,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000201-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.252,
+            "green": 0.6,
+            "blue": 0.368,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000201-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.185,
+            "green": 0.44,
+            "blue": 0.27,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.252,
+        "green": 0.6,
+        "blue": 0.368,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA002001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.294,
+            "green": 0.7,
+            "blue": 0.429,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA002001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.252,
+            "green": 0.6,
+            "blue": 0.368,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA002001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.185,
+            "green": 0.44,
+            "blue": 0.27,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.93,
+        "green": 0.97,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000201-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.344,
+            "green": 0.82,
+            "blue": 0.503,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000201-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.302,
+            "green": 0.72,
+            "blue": 0.442,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000201-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.235,
+            "green": 0.56,
+            "blue": 0.343,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.93,
+        "green": 0.97,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.93,
+        "green": 0.97,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.93,
+        "green": 0.97,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.92,
+        "green": 0.95,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.92,
+        "green": 0.95,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.302,
+        "green": 0.72,
+        "blue": 0.442,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA002D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.344,
+            "green": 0.82,
+            "blue": 0.503,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA002D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.302,
+            "green": 0.72,
+            "blue": 0.442,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA002D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.235,
+            "green": 0.56,
+            "blue": 0.343,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000009",
+    "name": "Moonrise",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "moonrise",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.72,
+    "lightGlassTintGreen": 0.75,
+    "lightGlassTintBlue": 0.88,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.22,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.12,
+    "darkGlassTintGreen": 0.1,
+    "darkGlassTintBlue": 0.2,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.72,
+    "lightWidgetGlassTintGreen": 0.75,
+    "lightWidgetGlassTintBlue": 0.88,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.12,
+    "darkWidgetGlassTintGreen": 0.1,
+    "darkWidgetGlassTintBlue": 0.2,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.1,
+        "green": 0.13,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000301-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.286,
+            "green": 0.472,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000301-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.244,
+            "green": 0.403,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000301-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.177,
+            "green": 0.292,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.1,
+        "green": 0.13,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.1,
+        "green": 0.13,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.1,
+        "green": 0.13,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.244,
+        "green": 0.403,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA003001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.286,
+            "green": 0.472,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA003001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.244,
+            "green": 0.403,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA003001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.177,
+            "green": 0.292,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.9,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000301-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.337,
+            "green": 0.556,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000301-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.294,
+            "green": 0.486,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000301-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.227,
+            "green": 0.375,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.9,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.9,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.9,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.92,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.92,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.294,
+        "green": 0.486,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA003D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.337,
+            "green": 0.556,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA003D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.294,
+            "green": 0.486,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA003D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.227,
+            "green": 0.375,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000000000A",
+    "name": "Neon Silk",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "neon-silk",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.55,
+    "lightGlassTintGreen": 0.82,
+    "lightGlassTintBlue": 0.85,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.2,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.15,
+    "darkGlassTintGreen": 0.12,
+    "darkGlassTintBlue": 0.25,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.55,
+    "lightWidgetGlassTintGreen": 0.82,
+    "lightWidgetGlassTintBlue": 0.85,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.15,
+    "darkWidgetGlassTintGreen": 0.12,
+    "darkWidgetGlassTintBlue": 0.25,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.09,
+        "green": 0.13,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000401-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.15,
+            "green": 0.4,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000401-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.128,
+            "green": 0.341,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000401-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.093,
+            "green": 0.247,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.09,
+        "green": 0.13,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.09,
+        "green": 0.13,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.09,
+        "green": 0.13,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.128,
+        "green": 0.341,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA004001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.15,
+            "green": 0.4,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA004001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.128,
+            "green": 0.341,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA004001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.093,
+            "green": 0.247,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.92,
+        "green": 0.94,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000401-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.177,
+            "green": 0.47,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000401-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.154,
+            "green": 0.412,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000401-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.119,
+            "green": 0.317,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.92,
+        "green": 0.94,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.92,
+        "green": 0.94,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.92,
+        "green": 0.94,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.92,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.92,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.154,
+        "green": 0.412,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA004D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.177,
+            "green": 0.47,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA004D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.154,
+            "green": 0.412,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA004D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.119,
+            "green": 0.317,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000000000B",
+    "name": "Wild Frontier",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "wild-frontier",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.88,
+    "lightGlassTintGreen": 0.78,
+    "lightGlassTintBlue": 0.65,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.25,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.15,
+    "darkGlassTintGreen": 0.12,
+    "darkGlassTintBlue": 0.18,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.88,
+    "lightWidgetGlassTintGreen": 0.78,
+    "lightWidgetGlassTintBlue": 0.65,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.15,
+    "darkWidgetGlassTintGreen": 0.12,
+    "darkWidgetGlassTintBlue": 0.18,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.16,
+        "green": 0.15,
+        "blue": 0.13,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000501-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.751,
+            "green": 0.566,
+            "blue": 0.316,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000501-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.651,
+            "green": 0.491,
+            "blue": 0.274,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000501-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.491,
+            "green": 0.37,
+            "blue": 0.207,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.16,
+        "green": 0.15,
+        "blue": 0.13,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.16,
+        "green": 0.15,
+        "blue": 0.13,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.16,
+        "green": 0.15,
+        "blue": 0.13,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.651,
+        "green": 0.491,
+        "blue": 0.274,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA005001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.751,
+            "green": 0.566,
+            "blue": 0.316,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA005001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.651,
+            "green": 0.491,
+            "blue": 0.274,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA005001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.491,
+            "green": 0.37,
+            "blue": 0.207,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.97,
+        "green": 0.96,
+        "blue": 0.92,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000501-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.871,
+            "green": 0.657,
+            "blue": 0.367,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000501-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.771,
+            "green": 0.582,
+            "blue": 0.325,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000501-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.611,
+            "green": 0.461,
+            "blue": 0.257,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.97,
+        "green": 0.96,
+        "blue": 0.92,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.97,
+        "green": 0.96,
+        "blue": 0.92,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.97,
+        "green": 0.96,
+        "blue": 0.92,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.771,
+        "green": 0.582,
+        "blue": 0.325,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA005D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.871,
+            "green": 0.657,
+            "blue": 0.367,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA005D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.771,
+            "green": 0.582,
+            "blue": 0.325,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA005D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.611,
+            "green": 0.461,
+            "blue": 0.257,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000000000C",
+    "name": "Urban Glow",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "urban-glow",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.92,
+    "lightGlassTintGreen": 0.78,
+    "lightGlassTintBlue": 0.55,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.25,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.18,
+    "darkGlassTintGreen": 0.12,
+    "darkGlassTintBlue": 0.22,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.92,
+    "lightWidgetGlassTintGreen": 0.78,
+    "lightWidgetGlassTintBlue": 0.55,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.18,
+    "darkWidgetGlassTintGreen": 0.12,
+    "darkWidgetGlassTintBlue": 0.22,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.12,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000601-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.286,
+            "green": 0.569,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000601-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.244,
+            "green": 0.485,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000601-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.177,
+            "green": 0.351,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.12,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.12,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.12,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.244,
+        "green": 0.485,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA006001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.286,
+            "green": 0.569,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA006001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.244,
+            "green": 0.485,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA006001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.177,
+            "green": 0.351,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.95,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000601-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.337,
+            "green": 0.669,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000601-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.294,
+            "green": 0.585,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000601-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.227,
+            "green": 0.452,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.95,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.95,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.95,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.294,
+        "green": 0.585,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA006D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.337,
+            "green": 0.669,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA006D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.294,
+            "green": 0.585,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA006D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.227,
+            "green": 0.452,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000000000D",
+    "name": "City Pulse",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "city-pulse",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.85,
+    "lightGlassTintGreen": 0.75,
+    "lightGlassTintBlue": 0.65,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.22,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.2,
+    "darkGlassTintGreen": 0.12,
+    "darkGlassTintBlue": 0.15,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.85,
+    "lightWidgetGlassTintGreen": 0.75,
+    "lightWidgetGlassTintBlue": 0.65,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.2,
+    "darkWidgetGlassTintGreen": 0.12,
+    "darkWidgetGlassTintBlue": 0.15,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.12,
+        "green": 0.13,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000701-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.68,
+            "green": 0.417,
+            "blue": 0.279,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000701-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.58,
+            "green": 0.356,
+            "blue": 0.238,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000701-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.42,
+            "green": 0.258,
+            "blue": 0.172,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.12,
+        "green": 0.13,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.12,
+        "green": 0.13,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.12,
+        "green": 0.13,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.58,
+        "green": 0.356,
+        "blue": 0.238,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA007001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.68,
+            "green": 0.417,
+            "blue": 0.279,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA007001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.58,
+            "green": 0.356,
+            "blue": 0.238,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA007001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.42,
+            "green": 0.258,
+            "blue": 0.172,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.98,
+        "green": 0.95,
+        "blue": 0.89,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000701-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.8,
+            "green": 0.491,
+            "blue": 0.328,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000701-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.7,
+            "green": 0.43,
+            "blue": 0.287,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000701-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.54,
+            "green": 0.331,
+            "blue": 0.222,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.98,
+        "green": 0.95,
+        "blue": 0.89,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.98,
+        "green": 0.95,
+        "blue": 0.89,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.98,
+        "green": 0.95,
+        "blue": 0.89,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.9,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.9,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.7,
+        "green": 0.43,
+        "blue": 0.287,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA007D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.8,
+            "green": 0.491,
+            "blue": 0.328,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA007D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.7,
+            "green": 0.43,
+            "blue": 0.287,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA007D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.54,
+            "green": 0.331,
+            "blue": 0.222,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000000000E",
+    "name": "Golden Peak",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "golden-peak",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.95,
+    "lightGlassTintGreen": 0.82,
+    "lightGlassTintBlue": 0.58,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.22,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.12,
+    "darkGlassTintGreen": 0.15,
+    "darkGlassTintBlue": 0.28,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.95,
+    "lightWidgetGlassTintGreen": 0.82,
+    "lightWidgetGlassTintBlue": 0.58,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.12,
+    "darkWidgetGlassTintGreen": 0.15,
+    "darkWidgetGlassTintBlue": 0.28,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.11,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000801-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.162,
+            "green": 0.383,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000801-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.138,
+            "green": 0.327,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000801-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.1,
+            "green": 0.237,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.11,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.11,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.15,
+        "green": 0.13,
+        "blue": 0.11,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.138,
+        "green": 0.327,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA008001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.162,
+            "green": 0.383,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA008001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.138,
+            "green": 0.327,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA008001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.1,
+            "green": 0.237,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000801-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.19,
+            "green": 0.451,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000801-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.167,
+            "green": 0.395,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000801-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.128,
+            "green": 0.304,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.92,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.92,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.167,
+        "green": 0.395,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA008D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.19,
+            "green": 0.451,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA008D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.167,
+            "green": 0.395,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA008D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.128,
+            "green": 0.304,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000000000F",
+    "name": "Alpine Road",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "alpine-road",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.72,
+    "lightGlassTintGreen": 0.82,
+    "lightGlassTintBlue": 0.68,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.25,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.12,
+    "darkGlassTintGreen": 0.15,
+    "darkGlassTintBlue": 0.22,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.72,
+    "lightWidgetGlassTintGreen": 0.82,
+    "lightWidgetGlassTintBlue": 0.68,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.12,
+    "darkWidgetGlassTintGreen": 0.15,
+    "darkWidgetGlassTintBlue": 0.22,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.11,
+        "green": 0.13,
+        "blue": 0.17,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000901-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.264,
+            "green": 0.414,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000901-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.225,
+            "green": 0.353,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000901-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.163,
+            "green": 0.256,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.11,
+        "green": 0.13,
+        "blue": 0.17,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.11,
+        "green": 0.13,
+        "blue": 0.17,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.11,
+        "green": 0.13,
+        "blue": 0.17,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.225,
+        "green": 0.353,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA009001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.264,
+            "green": 0.414,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA009001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.225,
+            "green": 0.353,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA009001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.163,
+            "green": 0.256,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000901-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.31,
+            "green": 0.487,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000901-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.272,
+            "green": 0.426,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000901-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.209,
+            "green": 0.329,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.9,
+        "green": 0.93,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.92,
+        "green": 0.92,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.92,
+        "green": 0.92,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.272,
+        "green": 0.426,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA009D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.31,
+            "green": 0.487,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA009D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.272,
+            "green": 0.426,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA009D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.209,
+            "green": 0.329,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000010",
+    "name": "Wildflower",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "wildflower",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.92,
+    "lightGlassTintGreen": 0.88,
+    "lightGlassTintBlue": 0.72,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.25,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.18,
+    "darkGlassTintGreen": 0.1,
+    "darkGlassTintBlue": 0.22,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.92,
+    "lightWidgetGlassTintGreen": 0.88,
+    "lightWidgetGlassTintBlue": 0.72,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.18,
+    "darkWidgetGlassTintGreen": 0.1,
+    "darkWidgetGlassTintBlue": 0.22,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.17,
+        "green": 0.13,
+        "blue": 0.09,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000A01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.632,
+            "green": 0.286,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000A01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.539,
+            "green": 0.244,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000A01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.39,
+            "green": 0.177,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.17,
+        "green": 0.13,
+        "blue": 0.09,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.17,
+        "green": 0.13,
+        "blue": 0.09,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.17,
+        "green": 0.13,
+        "blue": 0.09,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.539,
+        "green": 0.244,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA00A001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.632,
+            "green": 0.286,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA00A001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.539,
+            "green": 0.244,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA00A001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.39,
+            "green": 0.177,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.97,
+        "green": 0.94,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000A01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.743,
+            "green": 0.337,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000A01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.651,
+            "green": 0.294,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000A01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.502,
+            "green": 0.227,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.97,
+        "green": 0.94,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.97,
+        "green": 0.94,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.97,
+        "green": 0.94,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.651,
+        "green": 0.294,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA00AD01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.743,
+            "green": 0.337,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA00AD01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.651,
+            "green": 0.294,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA00AD01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.502,
+            "green": 0.227,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000011",
+    "name": "Stratosphere",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "stratosphere",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.55,
+    "lightGlassTintGreen": 0.78,
+    "lightGlassTintBlue": 0.88,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.22,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.08,
+    "darkGlassTintGreen": 0.1,
+    "darkGlassTintBlue": 0.2,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.55,
+    "lightWidgetGlassTintGreen": 0.78,
+    "lightWidgetGlassTintBlue": 0.88,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.08,
+    "darkWidgetGlassTintGreen": 0.1,
+    "darkWidgetGlassTintBlue": 0.2,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.08,
+        "green": 0.14,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000B01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.15,
+            "green": 0.489,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000B01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.128,
+            "green": 0.417,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000B01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.093,
+            "green": 0.302,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.08,
+        "green": 0.14,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.08,
+        "green": 0.14,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.08,
+        "green": 0.14,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.128,
+        "green": 0.417,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA00B001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.15,
+            "green": 0.489,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA00B001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.128,
+            "green": 0.417,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA00B001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.093,
+            "green": 0.302,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.93,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000B01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.177,
+            "green": 0.575,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000B01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.154,
+            "green": 0.503,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000B01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.119,
+            "green": 0.388,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.93,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.93,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.93,
+        "green": 0.95,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.9,
+        "green": 0.92,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.9,
+        "green": 0.92,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.154,
+        "green": 0.503,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA00BD01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.177,
+            "green": 0.575,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA00BD01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.154,
+            "green": 0.503,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA00BD01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.119,
+            "green": 0.388,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000012",
+    "name": "Tropical Shore",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "tropical-shore",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.55,
+    "lightGlassTintGreen": 0.85,
+    "lightGlassTintBlue": 0.82,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.22,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.18,
+    "darkGlassTintGreen": 0.12,
+    "darkGlassTintBlue": 0.15,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.55,
+    "lightWidgetGlassTintGreen": 0.85,
+    "lightWidgetGlassTintBlue": 0.82,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.18,
+    "darkWidgetGlassTintGreen": 0.12,
+    "darkWidgetGlassTintBlue": 0.15,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.19,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1000C01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.8,
+            "green": 0.519,
+            "blue": 0.336,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1000C01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.7,
+            "green": 0.454,
+            "blue": 0.294,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1000C01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.54,
+            "green": 0.35,
+            "blue": 0.227,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.19,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.19,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.1,
+        "green": 0.16,
+        "blue": 0.19,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.7,
+        "green": 0.454,
+        "blue": 0.294,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA00C001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.8,
+            "green": 0.519,
+            "blue": 0.336,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA00C001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.7,
+            "green": 0.454,
+            "blue": 0.294,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA00C001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.54,
+            "green": 0.35,
+            "blue": 0.227,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.99,
+        "green": 0.95,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2000C01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.92,
+            "green": 0.597,
+            "blue": 0.386,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2000C01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.82,
+            "green": 0.532,
+            "blue": 0.344,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2000C01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.66,
+            "green": 0.428,
+            "blue": 0.277,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.99,
+        "green": 0.95,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.99,
+        "green": 0.95,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.99,
+        "green": 0.95,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.82,
+        "green": 0.532,
+        "blue": 0.344,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA00CD01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.92,
+            "green": 0.597,
+            "blue": 0.386,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA00CD01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.82,
+            "green": 0.532,
+            "blue": 0.344,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA00CD01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.66,
+            "green": 0.428,
+            "blue": 0.277,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000013",
+    "name": "Terminal Drift",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "terminal-drift",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.72,
+    "lightGlassTintGreen": 0.78,
+    "lightGlassTintBlue": 0.88,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.28,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.12,
+    "darkGlassTintGreen": 0.15,
+    "darkGlassTintBlue": 0.28,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.72,
+    "lightWidgetGlassTintGreen": 0.78,
+    "lightWidgetGlassTintBlue": 0.88,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.12,
+    "darkWidgetGlassTintGreen": 0.15,
+    "darkWidgetGlassTintBlue": 0.28,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.11,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1001301-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.286,
+            "green": 0.424,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1001301-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.244,
+            "green": 0.362,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1001301-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.177,
+            "green": 0.262,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.11,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.11,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.11,
+        "green": 0.14,
+        "blue": 0.15,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.244,
+        "green": 0.362,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA013001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.286,
+            "green": 0.424,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA013001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.244,
+            "green": 0.362,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA013001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.177,
+            "green": 0.262,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.97,
+        "green": 0.93,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2001301-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.337,
+            "green": 0.499,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2001301-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.294,
+            "green": 0.437,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2001301-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.227,
+            "green": 0.337,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.97,
+        "green": 0.93,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.97,
+        "green": 0.93,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.97,
+        "green": 0.93,
+        "blue": 0.88,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.85,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.294,
+        "green": 0.437,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA013D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.337,
+            "green": 0.499,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA013D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.294,
+            "green": 0.437,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA013D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.227,
+            "green": 0.337,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000014",
+    "name": "Palm Dusk",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "palm-dusk",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.65,
+    "lightGlassTintGreen": 0.78,
+    "lightGlassTintBlue": 0.88,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.25,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.2,
+    "darkGlassTintGreen": 0.12,
+    "darkGlassTintBlue": 0.35,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.65,
+    "lightWidgetGlassTintGreen": 0.78,
+    "lightWidgetGlassTintBlue": 0.88,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.2,
+    "darkWidgetGlassTintGreen": 0.12,
+    "darkWidgetGlassTintBlue": 0.35,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.16,
+        "green": 0.11,
+        "blue": 0.18,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1001401-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.309,
+            "green": 0.476,
+            "blue": 0.737,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1001401-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.267,
+            "green": 0.411,
+            "blue": 0.637,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1001401-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.2,
+            "green": 0.308,
+            "blue": 0.477,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.16,
+        "green": 0.11,
+        "blue": 0.18,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.16,
+        "green": 0.11,
+        "blue": 0.18,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.16,
+        "green": 0.11,
+        "blue": 0.18,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.267,
+        "green": 0.411,
+        "blue": 0.637,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA014001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.309,
+            "green": 0.476,
+            "blue": 0.737,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA014001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.267,
+            "green": 0.411,
+            "blue": 0.637,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA014001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.2,
+            "green": 0.308,
+            "blue": 0.477,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2001401-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.359,
+            "green": 0.553,
+            "blue": 0.857,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2001401-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.317,
+            "green": 0.488,
+            "blue": 0.757,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2001401-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.25,
+            "green": 0.385,
+            "blue": 0.597,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.9,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.9,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.9,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.317,
+        "green": 0.488,
+        "blue": 0.757,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA014D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.359,
+            "green": 0.553,
+            "blue": 0.857,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA014D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.317,
+            "green": 0.488,
+            "blue": 0.757,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA014D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.25,
+            "green": 0.385,
+            "blue": 0.597,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000015",
+    "name": "Prism Glow",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "prism-glow",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.92,
+    "lightGlassTintGreen": 0.82,
+    "lightGlassTintBlue": 0.9,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.3,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.05,
+    "darkGlassTintGreen": 0.05,
+    "darkGlassTintBlue": 0.2,
+    "darkGlassTintOpacity": 0.25,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.92,
+    "lightWidgetGlassTintGreen": 0.82,
+    "lightWidgetGlassTintBlue": 0.9,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.05,
+    "darkWidgetGlassTintGreen": 0.05,
+    "darkWidgetGlassTintBlue": 0.2,
+    "darkWidgetGlassTintOpacity": 0.28,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.15,
+        "green": 0.12,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1001501-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.176,
+            "green": 0.563,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1001501-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.154,
+            "green": 0.493,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1001501-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.119,
+            "green": 0.38,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.15,
+        "green": 0.12,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.15,
+        "green": 0.12,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.15,
+        "green": 0.12,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.154,
+        "green": 0.493,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA015001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.176,
+            "green": 0.563,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA015001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.154,
+            "green": 0.493,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA015001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.119,
+            "green": 0.38,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.96,
+        "green": 0.95,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2001501-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.202,
+            "green": 0.648,
+            "blue": 0.92,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2001501-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.18,
+            "green": 0.578,
+            "blue": 0.82,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2001501-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.145,
+            "green": 0.465,
+            "blue": 0.66,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.96,
+        "green": 0.95,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.96,
+        "green": 0.95,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.96,
+        "green": 0.95,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.92,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.18,
+        "green": 0.578,
+        "blue": 0.82,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA015D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.202,
+            "green": 0.648,
+            "blue": 0.92,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA015D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.18,
+            "green": 0.578,
+            "blue": 0.82,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA015D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.145,
+            "green": 0.465,
+            "blue": 0.66,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000016",
+    "name": "Ember Tide",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "ember-tide",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.1,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.18,
+    "lightGlassTintGreen": 0.45,
+    "lightGlassTintBlue": 0.62,
+    "lightGlassTintOpacity": 0.15,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.3,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.25,
+    "darkGlassTintGreen": 0.08,
+    "darkGlassTintBlue": 0.05,
+    "darkGlassTintOpacity": 0.22,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.18,
+    "lightWidgetGlassTintGreen": 0.45,
+    "lightWidgetGlassTintBlue": 0.62,
+    "lightWidgetGlassTintOpacity": 0.18,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.25,
+    "darkWidgetGlassTintGreen": 0.08,
+    "darkWidgetGlassTintBlue": 0.05,
+    "darkWidgetGlassTintOpacity": 0.25,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.16,
+        "green": 0.12,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1001601-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.8,
+            "green": 0.441,
+            "blue": 0.225,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1001601-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.7,
+            "green": 0.386,
+            "blue": 0.197,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1001601-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.54,
+            "green": 0.298,
+            "blue": 0.152,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.16,
+        "green": 0.12,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.16,
+        "green": 0.12,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.16,
+        "green": 0.12,
+        "blue": 0.1,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.7,
+        "green": 0.386,
+        "blue": 0.197,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA016001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.8,
+            "green": 0.441,
+            "blue": 0.225,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA016001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.7,
+            "green": 0.386,
+            "blue": 0.197,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA016001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.54,
+            "green": 0.298,
+            "blue": 0.152,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.87,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2001601-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.92,
+            "green": 0.507,
+            "blue": 0.259,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2001601-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.82,
+            "green": 0.452,
+            "blue": 0.231,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2001601-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.66,
+            "green": 0.364,
+            "blue": 0.186,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.87,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.87,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.98,
+        "green": 0.94,
+        "blue": 0.87,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.98,
+        "green": 0.9,
+        "blue": 0.75,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.98,
+        "green": 0.9,
+        "blue": 0.75,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.82,
+        "green": 0.452,
+        "blue": 0.231,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA016D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.92,
+            "green": 0.507,
+            "blue": 0.259,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA016D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.82,
+            "green": 0.452,
+            "blue": 0.231,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA016D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.66,
+            "green": 0.364,
+            "blue": 0.186,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "statusBarPrefersLightContent": true
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000017",
+    "name": "Velvet Bloom",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "velvet-bloom",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.88,
+    "lightGlassTintGreen": 0.75,
+    "lightGlassTintBlue": 0.9,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.3,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.15,
+    "darkGlassTintGreen": 0.05,
+    "darkGlassTintBlue": 0.12,
+    "darkGlassTintOpacity": 0.25,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.88,
+    "lightWidgetGlassTintGreen": 0.75,
+    "lightWidgetGlassTintBlue": 0.9,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.15,
+    "darkWidgetGlassTintGreen": 0.05,
+    "darkWidgetGlassTintBlue": 0.12,
+    "darkWidgetGlassTintOpacity": 0.28,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.19,
+        "green": 0.11,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1001701-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.794,
+            "green": 0.254,
+            "blue": 0.55,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1001701-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.694,
+            "green": 0.222,
+            "blue": 0.481,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1001701-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.534,
+            "green": 0.171,
+            "blue": 0.37,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.19,
+        "green": 0.11,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.19,
+        "green": 0.11,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.19,
+        "green": 0.11,
+        "blue": 0.2,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.694,
+        "green": 0.222,
+        "blue": 0.481,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA017001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.794,
+            "green": 0.254,
+            "blue": 0.55,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA017001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.694,
+            "green": 0.222,
+            "blue": 0.481,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA017001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.534,
+            "green": 0.171,
+            "blue": 0.37,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.99,
+        "green": 0.93,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2001701-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.914,
+            "green": 0.292,
+            "blue": 0.633,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2001701-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.814,
+            "green": 0.26,
+            "blue": 0.564,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2001701-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.654,
+            "green": 0.209,
+            "blue": 0.453,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.99,
+        "green": 0.93,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.99,
+        "green": 0.93,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.99,
+        "green": 0.93,
+        "blue": 0.96,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.98,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.98,
+        "green": 0.9,
+        "blue": 0.95,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.814,
+        "green": 0.26,
+        "blue": 0.564,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA017D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.914,
+            "green": 0.292,
+            "blue": 0.633,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA017D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.814,
+            "green": 0.26,
+            "blue": 0.564,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA017D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.654,
+            "green": 0.209,
+            "blue": 0.453,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000018",
+    "name": "Amethyst Storm",
+    "createdAt": 0,
+    "isBuiltIn": true,
+    "bundleImageSlug": "amethyst-storm",
+    "hasLightImage": true,
+    "hasDarkImage": true,
+    "lightDimming": 0.05,
+    "lightGlassVariant": 2,
+    "lightGlassClearDimming": 0,
+    "lightGlassTintRed": 0.88,
+    "lightGlassTintGreen": 0.82,
+    "lightGlassTintBlue": 0.92,
+    "lightGlassTintOpacity": 0.12,
+    "lightWallpaperScale": 1.0,
+    "lightWallpaperOffsetX": 0,
+    "lightWallpaperOffsetY": 0,
+    "darkDimming": 0.28,
+    "darkGlassVariant": 2,
+    "darkGlassClearDimming": 0,
+    "darkGlassTintRed": 0.15,
+    "darkGlassTintGreen": 0.05,
+    "darkGlassTintBlue": 0.28,
+    "darkGlassTintOpacity": 0.25,
+    "darkWallpaperScale": 1.0,
+    "darkWallpaperOffsetX": 0,
+    "darkWallpaperOffsetY": 0,
+    "lightWidgetGlassVariant": 2,
+    "lightWidgetGlassClearDimming": 0,
+    "lightWidgetGlassTintRed": 0.88,
+    "lightWidgetGlassTintGreen": 0.82,
+    "lightWidgetGlassTintBlue": 0.92,
+    "lightWidgetGlassTintOpacity": 0.15,
+    "darkWidgetGlassVariant": 2,
+    "darkWidgetGlassClearDimming": 0,
+    "darkWidgetGlassTintRed": 0.15,
+    "darkWidgetGlassTintGreen": 0.05,
+    "darkWidgetGlassTintBlue": 0.28,
+    "darkWidgetGlassTintOpacity": 0.28,
+    "lightColorCustomization": {
+      "bellIconColor": {
+        "red": 0.15,
+        "green": 0.11,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A1001801-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.659,
+            "green": 0.15,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A1001801-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.562,
+            "green": 0.128,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A1001801-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.407,
+            "green": 0.093,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.15,
+        "green": 0.11,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.15,
+        "green": 0.11,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.15,
+        "green": 0.11,
+        "blue": 0.16,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.562,
+        "green": 0.128,
+        "blue": 0.58,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA018001-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.659,
+            "green": 0.15,
+            "blue": 0.68,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA018001-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.562,
+            "green": 0.128,
+            "blue": 0.58,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA018001-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.407,
+            "green": 0.093,
+            "blue": 0.42,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    },
+    "darkColorCustomization": {
+      "bellIconColor": {
+        "red": 0.97,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "snoozeColor": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "snoozeRemainingColor": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipButtonColor": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "skipGradientStops": [
+        {
+          "id": "A2001801-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.775,
+            "green": 0.177,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "A2001801-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.678,
+            "green": 0.154,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "A2001801-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.523,
+            "green": 0.119,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ],
+      "toggleOnTint": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSnoozeTint": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "toggleSkippedTint": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "alarmTimeColor": {
+        "red": 0.97,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "alarmLabelColor": {
+        "red": 0.97,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "missionIconColor": {
+        "red": 0.97,
+        "green": 0.92,
+        "blue": 0.97,
+        "alpha": 1.0
+      },
+      "toolbarColor": {
+        "red": 0.95,
+        "green": 0.88,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "mqttTextColor": {
+        "red": 0.95,
+        "green": 0.88,
+        "blue": 0.98,
+        "alpha": 1.0
+      },
+      "armButtonColor": {
+        "red": 0.678,
+        "green": 0.154,
+        "blue": 0.7,
+        "alpha": 1.0
+      },
+      "armButtonGradientStops": [
+        {
+          "id": "CA018D01-0000-0000-0000-000000000001",
+          "color": {
+            "red": 0.775,
+            "green": 0.177,
+            "blue": 0.8,
+            "alpha": 1.0
+          },
+          "position": 0.0
+        },
+        {
+          "id": "CA018D01-0000-0000-0000-000000000002",
+          "color": {
+            "red": 0.678,
+            "green": 0.154,
+            "blue": 0.7,
+            "alpha": 1.0
+          },
+          "position": 0.5
+        },
+        {
+          "id": "CA018D01-0000-0000-0000-000000000003",
+          "color": {
+            "red": 0.523,
+            "green": 0.119,
+            "blue": 0.54,
+            "alpha": 1.0
+          },
+          "position": 1.0
+        }
+      ]
+    }
+  }
+]

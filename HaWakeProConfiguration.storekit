@@ -1,0 +1,159 @@
+{
+  "identifier" : "HaWakeProConfiguration",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "6670405297",
+      "localizations" : [
+        {
+          "description" : "Unlock unlimited alarms, math missions, and Home Assistant MQTT integration forever.",
+          "displayName" : "HaWake Pro – Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hawakeyetalarm.pro",
+      "referenceName" : "HaWake Pro Lifetime",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "7100000001",
+      "localizations" : [
+        {
+          "description" : "A small tip to support Allarise. Everything in the app is free — this just says thanks.",
+          "displayName" : "Snooze",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hawakeyetalarm.support.tip1",
+      "referenceName" : "Support Tip Snooze",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "7100000003",
+      "localizations" : [
+        {
+          "description" : "A tip to support Allarise. Everything in the app is free — this just helps keep it going.",
+          "displayName" : "Early Bird",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hawakeyetalarm.support.tip3",
+      "referenceName" : "Support Tip Early Bird",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "7100000010",
+      "localizations" : [
+        {
+          "description" : "A generous tip to support Allarise. Everything in the app is free — thank you for helping.",
+          "displayName" : "Morning Person",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hawakeyetalarm.support.tip10",
+      "referenceName" : "Support Tip Morning Person",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "7100000021",
+      "localizations" : [
+        {
+          "description" : "A very generous tip to support Allarise.",
+          "displayName" : "Sunrise Champion",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hawakeyetalarm.support.tip20b",
+      "referenceName" : "Support Tip — Sunrise Champion",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20966759",
+      "localizations" : [
+        {
+          "displayName" : "HaWake Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "subscriptions" : [
+        {
+          "adornmentIcon" : "star.fill",
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6670405298",
+          "localizations" : [
+            {
+              "description" : "Support Allarise month to month. Everything in the app is free.",
+              "displayName" : "Monthly Supporter",
+              "locale" : "en_US"
+            }
+          ],
+          "introductoryOffer" : null,
+          "productID" : "com.hawakeyetalarm.pro.monthly1",
+          "referenceName" : "HaWake Pro Monthly",
+          "subscriptionPeriod" : "P1M",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.hawake.keepalive-refresh</string>
+	</array>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Audio File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.audio</string>
+				<string>public.mp3</string>
+				<string>public.mpeg-4-audio</string>
+				<string>com.apple.m4a-audio</string>
+				<string>com.microsoft.waveform-audio</string>
+				<string>public.aiff-audio</string>
+				<string>public.aifc-audio</string>
+				<string>com.apple.coreaudio-format</string>
+				<string>org.xiph.flac</string>
+				<string>public.aac-audio</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Allarise Sound</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.hawake.hwsound</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Allarise Theme Preset</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.hawake.preset</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Allarise Theme</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.hawake.theme</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleSpokenName</key>
+	<string>All Arise</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.hawake.alarm</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>allarise</string>
+				<string>hawake</string>
+			</array>
+		</dict>
+	</array>
+	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+	<false/>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>FirebaseCrashlyticsCollectionEnabled</key>
+	<false/>
+	<key>FirebaseMessagingAutoInitEnabled</key>
+	<false/>
+	<key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS</key>
+	<false/>
+	<key>GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED</key>
+	<false/>
+	<key>INAlternativeAppNames</key>
+	<array>
+		<dict>
+			<key>INAlternativeAppName</key>
+			<string>All Arise</string>
+			<key>INAlternativeAppNamePronunciationHint</key>
+			<string>all uh rise</string>
+		</dict>
+		<dict>
+			<key>INAlternativeAppName</key>
+			<string>Alarise</string>
+		</dict>
+		<dict>
+			<key>INAlternativeAppName</key>
+			<string>Aller Rise</string>
+		</dict>
+	</array>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAlarmKitUsageDescription</key>
+	<string>Allarise uses AlarmKit to schedule and manage your wake-up alarms reliably.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<!-- AVFoundation (AVPlayer) media — video_url and audio media_url —
+		     may load from insecure origins. -->
+		<key>NSAllowsArbitraryLoadsForMedia</key>
+		<true/>
+		<!-- image_url is fetched by URLSession (SwiftUI AsyncImage), which the
+		     media key above does NOT cover. Home Assistant is commonly served
+		     over plain http on the LAN (http://homeassistant.local:8123), so
+		     without this a picture alert would be blocked by ATS while a video
+		     from the same host played fine. Scoped to local/reserved-range
+		     hosts — it does not weaken ATS for public internet requests. -->
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.audio</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Allarise Sound</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.hawake.hwsound</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>hwsound</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.pkware.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Allarise Theme Preset</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.hawake.preset</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>hawakepreset</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.pkware.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Allarise Theme</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.hawake.theme</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>hawaketheme</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

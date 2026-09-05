@@ -1,0 +1,19 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.xcarchive
+*.dSYM*
+# macOS
+.DS_Store
+# Secrets: never commit these
+GoogleService-Info.plist
+*.p8
+*.p12
+*.mobileprovision
+# Scratch
+scratch/
+build-sim/
+build-device/
+build-signed/

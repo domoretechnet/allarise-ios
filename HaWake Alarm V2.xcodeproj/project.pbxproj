@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 100;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370FF33A2F6F964B0089F762 /* home_presets.json in Resources */ = {isa = PBXBuildFile; fileRef = 370FF3392F6F964B0089F762 /* home_presets.json */; };
+		370FF33C2F6F96640089F762 /* alarm_presets.json in Resources */ = {isa = PBXBuildFile; fileRef = 370FF33B2F6F96640089F762 /* alarm_presets.json */; };
+		3714371A2F5E5B92000EDD49 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 371437192F5E5B92000EDD49 /* CocoaMQTT */; };
+		37E4CBDB2F78C02000D14820 /* HaWakeProConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CB832F78C02000D14820 /* HaWakeProConfiguration.storekit */; };
+		37E4CBEF2F78C3AF00D14820 /* terminal-drift-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBEE2F78C3AF00D14820 /* terminal-drift-light.jpg */; };
+		37E4CBF12F78C3AF00D14820 /* terminal-drift-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBF02F78C3AF00D14820 /* terminal-drift-dark.jpg */; };
+		37E4CBF32F78C3BA00D14820 /* palm-dusk-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBF22F78C3BA00D14820 /* palm-dusk-light.jpg */; };
+		37E4CBF52F78C3BA00D14820 /* palm-dusk-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBF42F78C3BA00D14820 /* palm-dusk-dark.jpg */; };
+		37E4CBF72F78C3BA00D14820 /* prism-glow-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBF62F78C3BA00D14820 /* prism-glow-light.jpg */; };
+		37E4CBF92F78C3BA00D14820 /* prism-glow-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBF82F78C3BA00D14820 /* prism-glow-dark.jpg */; };
+		37E4CBFB2F78C3BA00D14820 /* ember-tide-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBFA2F78C3BA00D14820 /* ember-tide-light.jpg */; };
+		37E4CBFD2F78C3BB00D14820 /* ember-tide-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBFC2F78C3BB00D14820 /* ember-tide-dark.jpg */; };
+		37E4CBFF2F78C3BB00D14820 /* velvet-bloom-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CBFE2F78C3BB00D14820 /* velvet-bloom-light.jpg */; };
+		37E4CC012F78C3BB00D14820 /* velvet-bloom-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CC002F78C3BB00D14820 /* velvet-bloom-dark.jpg */; };
+		37E4CC032F78C3BB00D14820 /* amethyst-storm-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CC022F78C3BB00D14820 /* amethyst-storm-light.jpg */; };
+		37E4CC052F78C3BB00D14820 /* amethyst-storm-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E4CC042F78C3BB00D14820 /* amethyst-storm-dark.jpg */; };
+		AA0000032F7094900089F762 /* coastal-waters-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000012F7094900089F762 /* coastal-waters-light.jpg */; };
+		AA0000042F7094900089F762 /* coastal-waters-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000022F7094900089F762 /* coastal-waters-dark.jpg */; };
+		AA00000D2F7094900089F762 /* verdant-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00000B2F7094900089F762 /* verdant-light.jpg */; };
+		AA00000E2F7094900089F762 /* verdant-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00000C2F7094900089F762 /* verdant-dark.jpg */; };
+		AA0000172F7094900089F762 /* moonrise-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000152F7094900089F762 /* moonrise-light.jpg */; };
+		AA0000182F7094900089F762 /* moonrise-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000162F7094900089F762 /* moonrise-dark.jpg */; };
+		AA0000212F7094900089F762 /* neon-silk-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00001F2F7094900089F762 /* neon-silk-light.jpg */; };
+		AA0000222F7094900089F762 /* neon-silk-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000202F7094900089F762 /* neon-silk-dark.jpg */; };
+		AA00002B2F7094900089F762 /* wild-frontier-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000292F7094900089F762 /* wild-frontier-light.jpg */; };
+		AA00002C2F7094900089F762 /* wild-frontier-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00002A2F7094900089F762 /* wild-frontier-dark.jpg */; };
+		AA0000352F7094900089F762 /* urban-glow-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000332F7094900089F762 /* urban-glow-light.jpg */; };
+		AA0000362F7094900089F762 /* urban-glow-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000342F7094900089F762 /* urban-glow-dark.jpg */; };
+		AA00003F2F7094900089F762 /* city-pulse-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00003D2F7094900089F762 /* city-pulse-light.jpg */; };
+		AA0000402F7094900089F762 /* city-pulse-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00003E2F7094900089F762 /* city-pulse-dark.jpg */; };
+		AA0000492F7094900089F762 /* golden-peak-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000472F7094900089F762 /* golden-peak-light.jpg */; };
+		AA00004A2F7094900089F762 /* golden-peak-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000482F7094900089F762 /* golden-peak-dark.jpg */; };
+		AA0000532F7094900089F762 /* alpine-road-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000512F7094900089F762 /* alpine-road-light.jpg */; };
+		AA0000542F7094900089F762 /* alpine-road-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000522F7094900089F762 /* alpine-road-dark.jpg */; };
+		AA00005D2F7094900089F762 /* wildflower-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00005B2F7094900089F762 /* wildflower-light.jpg */; };
+		AA00005E2F7094900089F762 /* wildflower-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00005C2F7094900089F762 /* wildflower-dark.jpg */; };
+		AA0000672F7094900089F762 /* stratosphere-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000652F7094900089F762 /* stratosphere-light.jpg */; };
+		AA0000682F7094900089F762 /* stratosphere-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000662F7094900089F762 /* stratosphere-dark.jpg */; };
+		AA0000712F7094900089F762 /* tropical-shore-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA00006F2F7094900089F762 /* tropical-shore-light.jpg */; };
+		AA0000722F7094900089F762 /* tropical-shore-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0000702F7094900089F762 /* tropical-shore-dark.jpg */; };
+		FB00000000000000000000C1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FB00000000000000000000B1 /* FirebaseAnalytics */; };
+		FB00000000000000000000C2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FB00000000000000000000B2 /* FirebaseCrashlytics */; };
+		FB00000000000000000000C3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FB00000000000000000000B3 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371436DC2F5E59B8000EDD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371436C62F5E59B6000EDD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371436CD2F5E59B6000EDD49;
+			remoteInfo = "HaWake Alarm V2";
+		};
+		371436E62F5E59B8000EDD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371436C62F5E59B6000EDD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371436CD2F5E59B6000EDD49;
+			remoteInfo = "HaWake Alarm V2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		374FEFBA2F8216DB0046067D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+			);
+			name = "Embed Watch Content";
+		};
+		37DF04B52F6425C600CB6F05 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		370FF3392F6F964B0089F762 /* home_presets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = home_presets.json; sourceTree = "<group>"; };
+		370FF33B2F6F96640089F762 /* alarm_presets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = alarm_presets.json; sourceTree = "<group>"; };
+		371436CE2F5E59B6000EDD49 /* HaWake Alarm V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HaWake Alarm V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371436DB2F5E59B8000EDD49 /* HaWake Alarm V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaWake Alarm V2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371436E52F5E59B8000EDD49 /* HaWake Alarm V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaWake Alarm V2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF04882F6376DF00CB6F05 /* HaWake Alarm V2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HaWake Alarm V2.entitlements"; sourceTree = "<group>"; };
+		37DF04A02F6425C500CB6F05 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		37E4CB832F78C02000D14820 /* HaWakeProConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = HaWakeProConfiguration.storekit; sourceTree = "<group>"; };
+		37E4CBEE2F78C3AF00D14820 /* terminal-drift-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "terminal-drift-light.jpg"; sourceTree = "<group>"; };
+		37E4CBF02F78C3AF00D14820 /* terminal-drift-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "terminal-drift-dark.jpg"; sourceTree = "<group>"; };
+		37E4CBF22F78C3BA00D14820 /* palm-dusk-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "palm-dusk-light.jpg"; sourceTree = "<group>"; };
+		37E4CBF42F78C3BA00D14820 /* palm-dusk-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "palm-dusk-dark.jpg"; sourceTree = "<group>"; };
+		37E4CBF62F78C3BA00D14820 /* prism-glow-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "prism-glow-light.jpg"; sourceTree = "<group>"; };
+		37E4CBF82F78C3BA00D14820 /* prism-glow-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "prism-glow-dark.jpg"; sourceTree = "<group>"; };
+		37E4CBFA2F78C3BA00D14820 /* ember-tide-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ember-tide-light.jpg"; sourceTree = "<group>"; };
+		37E4CBFC2F78C3BB00D14820 /* ember-tide-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ember-tide-dark.jpg"; sourceTree = "<group>"; };
+		37E4CBFE2F78C3BB00D14820 /* velvet-bloom-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "velvet-bloom-light.jpg"; sourceTree = "<group>"; };
+		37E4CC002F78C3BB00D14820 /* velvet-bloom-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "velvet-bloom-dark.jpg"; sourceTree = "<group>"; };
+		37E4CC022F78C3BB00D14820 /* amethyst-storm-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "amethyst-storm-light.jpg"; sourceTree = "<group>"; };
+		37E4CC042F78C3BB00D14820 /* amethyst-storm-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "amethyst-storm-dark.jpg"; sourceTree = "<group>"; };
+		37F73CE92FE37E1800E8167F /* HaWakeProConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = HaWakeProConfiguration.storekit; sourceTree = "<group>"; };
+		AA0000012F7094900089F762 /* coastal-waters-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coastal-waters-light.jpg"; sourceTree = "<group>"; };
+		AA0000022F7094900089F762 /* coastal-waters-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coastal-waters-dark.jpg"; sourceTree = "<group>"; };
+		AA00000B2F7094900089F762 /* verdant-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "verdant-light.jpg"; sourceTree = "<group>"; };
+		AA00000C2F7094900089F762 /* verdant-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "verdant-dark.jpg"; sourceTree = "<group>"; };
+		AA0000152F7094900089F762 /* moonrise-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moonrise-light.jpg"; sourceTree = "<group>"; };
+		AA0000162F7094900089F762 /* moonrise-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moonrise-dark.jpg"; sourceTree = "<group>"; };
+		AA00001F2F7094900089F762 /* neon-silk-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "neon-silk-light.jpg"; sourceTree = "<group>"; };
+		AA0000202F7094900089F762 /* neon-silk-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "neon-silk-dark.jpg"; sourceTree = "<group>"; };
+		AA0000292F7094900089F762 /* wild-frontier-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wild-frontier-light.jpg"; sourceTree = "<group>"; };
+		AA00002A2F7094900089F762 /* wild-frontier-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wild-frontier-dark.jpg"; sourceTree = "<group>"; };
+		AA0000332F7094900089F762 /* urban-glow-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "urban-glow-light.jpg"; sourceTree = "<group>"; };
+		AA0000342F7094900089F762 /* urban-glow-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "urban-glow-dark.jpg"; sourceTree = "<group>"; };
+		AA00003D2F7094900089F762 /* city-pulse-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-pulse-light.jpg"; sourceTree = "<group>"; };
+		AA00003E2F7094900089F762 /* city-pulse-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-pulse-dark.jpg"; sourceTree = "<group>"; };
+		AA0000472F7094900089F762 /* golden-peak-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "golden-peak-light.jpg"; sourceTree = "<group>"; };
+		AA0000482F7094900089F762 /* golden-peak-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "golden-peak-dark.jpg"; sourceTree = "<group>"; };
+		AA0000512F7094900089F762 /* alpine-road-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alpine-road-light.jpg"; sourceTree = "<group>"; };
+		AA0000522F7094900089F762 /* alpine-road-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alpine-road-dark.jpg"; sourceTree = "<group>"; };
+		AA00005B2F7094900089F762 /* wildflower-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wildflower-light.jpg"; sourceTree = "<group>"; };
+		AA00005C2F7094900089F762 /* wildflower-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wildflower-dark.jpg"; sourceTree = "<group>"; };
+		AA0000652F7094900089F762 /* stratosphere-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stratosphere-light.jpg"; sourceTree = "<group>"; };
+		AA0000662F7094900089F762 /* stratosphere-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stratosphere-dark.jpg"; sourceTree = "<group>"; };
+		AA00006F2F7094900089F762 /* tropical-shore-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tropical-shore-light.jpg"; sourceTree = "<group>"; };
+		AA0000702F7094900089F762 /* tropical-shore-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tropical-shore-dark.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		371436D02F5E59B6000EDD49 /* HaWake Alarm V2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HaWake Alarm V2";
+			sourceTree = "<group>";
+		};
+		371436DE2F5E59B8000EDD49 /* HaWake Alarm V2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HaWake Alarm V2Tests";
+			sourceTree = "<group>";
+		};
+		371436E82F5E59B8000EDD49 /* HaWake Alarm V2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HaWake Alarm V2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371436CB2F5E59B6000EDD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				FB00000000000000000000C1 /* FirebaseAnalytics in Frameworks */,
+				FB00000000000000000000C2 /* FirebaseCrashlytics in Frameworks */,
+				FB00000000000000000000C3 /* FirebaseMessaging in Frameworks */,
+				3714371A2F5E5B92000EDD49 /* CocoaMQTT in Frameworks */,
+			);
+		};
+		371436D82F5E59B8000EDD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		371436E22F5E59B8000EDD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370FF3292F6F93C50089F762 /* coastal-waters 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "coastal-waters 2";
+			sourceTree = "<group>";
+		};
+		370FF32A2F6F93FB0089F762 /* coastal-waters 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "coastal-waters 2";
+			sourceTree = "<group>";
+		};
+		370FF3342F6F94710089F762 /* coastal-waters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "coastal-waters";
+			sourceTree = "<group>";
+		};
+		371436C52F5E59B6000EDD49 = {
+			isa = PBXGroup;
+			children = (
+				37F73CE92FE37E1800E8167F /* HaWakeProConfiguration.storekit */,
+				371436D02F5E59B6000EDD49 /* HaWake Alarm V2 */,
+				371436DE2F5E59B8000EDD49 /* HaWake Alarm V2Tests */,
+				371436E82F5E59B8000EDD49 /* HaWake Alarm V2UITests */,
+				37DF049D2F6425C500CB6F05 /* Frameworks */,
+				371436CF2F5E59B6000EDD49 /* Products */,
+				37DF04882F6376DF00CB6F05 /* HaWake Alarm V2.entitlements */,
+				37813BD12F6B5044008B56C9 /* BuiltInPresets */,
+				37E4CB832F78C02000D14820 /* HaWakeProConfiguration.storekit */,
+			);
+			sourceTree = "<group>";
+		};
+		371436CF2F5E59B6000EDD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371436CE2F5E59B6000EDD49 /* HaWake Alarm V2.app */,
+				371436DB2F5E59B8000EDD49 /* HaWake Alarm V2Tests.xctest */,
+				371436E52F5E59B8000EDD49 /* HaWake Alarm V2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37813BD12F6B5044008B56C9 /* BuiltInPresets */ = {
+			isa = PBXGroup;
+			children = (
+				37813BD22F6B5047008B56C9 /* home */,
+				37813BD32F6B5047008B56C9 /* alarm */,
+				370FF3392F6F964B0089F762 /* home_presets.json */,
+				370FF33B2F6F96640089F762 /* alarm_presets.json */,
+			);
+			path = BuiltInPresets;
+			sourceTree = "<group>";
+		};
+		37813BD22F6B5047008B56C9 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000052F7094900089F762 /* coastal-waters */,
+				AA00000F2F7094900089F762 /* verdant */,
+				AA0000192F7094900089F762 /* moonrise */,
+				AA0000232F7094900089F762 /* neon-silk */,
+				AA00002D2F7094900089F762 /* wild-frontier */,
+				AA0000372F7094900089F762 /* urban-glow */,
+				AA0000412F7094900089F762 /* city-pulse */,
+				AA00004B2F7094900089F762 /* golden-peak */,
+				AA0000552F7094900089F762 /* alpine-road */,
+				AA00005F2F7094900089F762 /* wildflower */,
+				AA0000692F7094900089F762 /* stratosphere */,
+				AA0000732F7094900089F762 /* tropical-shore */,
+				370FF3342F6F94710089F762 /* coastal-waters */,
+				37E4CBE82F78C3A600D14820 /* terminal-drift */,
+				37E4CBE92F78C3A600D14820 /* palm-dusk */,
+				37E4CBEA2F78C3A600D14820 /* prism-glow */,
+				37E4CBEB2F78C3A600D14820 /* ember-tide */,
+				37E4CBEC2F78C3A700D14820 /* velvet-bloom */,
+				37E4CBED2F78C3A700D14820 /* amethyst-storm */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		37813BD32F6B5047008B56C9 /* alarm */ = {
+			isa = PBXGroup;
+			children = (
+				370FF3292F6F93C50089F762 /* coastal-waters 2 */,
+				370FF32A2F6F93FB0089F762 /* coastal-waters 2 */,
+			);
+			path = alarm;
+			sourceTree = "<group>";
+		};
+		37DF049D2F6425C500CB6F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37DF04A02F6425C500CB6F05 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E4CBE82F78C3A600D14820 /* terminal-drift */ = {
+			isa = PBXGroup;
+			children = (
+				37E4CBEE2F78C3AF00D14820 /* terminal-drift-light.jpg */,
+				37E4CBF02F78C3AF00D14820 /* terminal-drift-dark.jpg */,
+			);
+			path = "terminal-drift";
+			sourceTree = "<group>";
+		};
+		37E4CBE92F78C3A600D14820 /* palm-dusk */ = {
+			isa = PBXGroup;
+			children = (
+				37E4CBF22F78C3BA00D14820 /* palm-dusk-light.jpg */,
+				37E4CBF42F78C3BA00D14820 /* palm-dusk-dark.jpg */,
+			);
+			path = "palm-dusk";
+			sourceTree = "<group>";
+		};
+		37E4CBEA2F78C3A600D14820 /* prism-glow */ = {
+			isa = PBXGroup;
+			children = (
+				37E4CBF62F78C3BA00D14820 /* prism-glow-light.jpg */,
+				37E4CBF82F78C3BA00D14820 /* prism-glow-dark.jpg */,
+			);
+			path = "prism-glow";
+			sourceTree = "<group>";
+		};
+		37E4CBEB2F78C3A600D14820 /* ember-tide */ = {
+			isa = PBXGroup;
+			children = (
+				37E4CBFA2F78C3BA00D14820 /* ember-tide-light.jpg */,
+				37E4CBFC2F78C3BB00D14820 /* ember-tide-dark.jpg */,
+			);
+			path = "ember-tide";
+			sourceTree = "<group>";
+		};
+		37E4CBEC2F78C3A700D14820 /* velvet-bloom */ = {
+			isa = PBXGroup;
+			children = (
+				37E4CBFE2F78C3BB00D14820 /* velvet-bloom-light.jpg */,
+				37E4CC002F78C3BB00D14820 /* velvet-bloom-dark.jpg */,
+			);
+			path = "velvet-bloom";
+			sourceTree = "<group>";
+		};
+		37E4CBED2F78C3A700D14820 /* amethyst-storm */ = {
+			isa = PBXGroup;
+			children = (
+				37E4CC022F78C3BB00D14820 /* amethyst-storm-light.jpg */,
+				37E4CC042F78C3BB00D14820 /* amethyst-storm-dark.jpg */,
+			);
+			path = "amethyst-storm";
+			sourceTree = "<group>";
+		};
+		AA0000052F7094900089F762 /* coastal-waters */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000012F7094900089F762 /* coastal-waters-light.jpg */,
+				AA0000022F7094900089F762 /* coastal-waters-dark.jpg */,
+			);
+			path = "coastal-waters";
+			sourceTree = "<group>";
+		};
+		AA00000F2F7094900089F762 /* verdant */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000B2F7094900089F762 /* verdant-light.jpg */,
+				AA00000C2F7094900089F762 /* verdant-dark.jpg */,
+			);
+			path = verdant;
+			sourceTree = "<group>";
+		};
+		AA0000192F7094900089F762 /* moonrise */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000152F7094900089F762 /* moonrise-light.jpg */,
+				AA0000162F7094900089F762 /* moonrise-dark.jpg */,
+			);
+			path = moonrise;
+			sourceTree = "<group>";
+		};
+		AA0000232F7094900089F762 /* neon-silk */ = {
+			isa = PBXGroup;
+			children = (
+				AA00001F2F7094900089F762 /* neon-silk-light.jpg */,
+				AA0000202F7094900089F762 /* neon-silk-dark.jpg */,
+			);
+			path = "neon-silk";
+			sourceTree = "<group>";
+		};
+		AA00002D2F7094900089F762 /* wild-frontier */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000292F7094900089F762 /* wild-frontier-light.jpg */,
+				AA00002A2F7094900089F762 /* wild-frontier-dark.jpg */,
+			);
+			path = "wild-frontier";
+			sourceTree = "<group>";
+		};
+		AA0000372F7094900089F762 /* urban-glow */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000332F7094900089F762 /* urban-glow-light.jpg */,
+				AA0000342F7094900089F762 /* urban-glow-dark.jpg */,
+			);
+			path = "urban-glow";
+			sourceTree = "<group>";
+		};
+		AA0000412F7094900089F762 /* city-pulse */ = {
+			isa = PBXGroup;
+			children = (
+				AA00003D2F7094900089F762 /* city-pulse-light.jpg */,
+				AA00003E2F7094900089F762 /* city-pulse-dark.jpg */,
+			);
+			path = "city-pulse";
+			sourceTree = "<group>";
+		};
+		AA00004B2F7094900089F762 /* golden-peak */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000472F7094900089F762 /* golden-peak-light.jpg */,
+				AA0000482F7094900089F762 /* golden-peak-dark.jpg */,
+			);
+			path = "golden-peak";
+			sourceTree = "<group>";
+		};
+		AA0000552F7094900089F762 /* alpine-road */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000512F7094900089F762 /* alpine-road-light.jpg */,
+				AA0000522F7094900089F762 /* alpine-road-dark.jpg */,
+			);
+			path = "alpine-road";
+			sourceTree = "<group>";
+		};
+		AA00005F2F7094900089F762 /* wildflower */ = {
+			isa = PBXGroup;
+			children = (
+				AA00005B2F7094900089F762 /* wildflower-light.jpg */,
+				AA00005C2F7094900089F762 /* wildflower-dark.jpg */,
+			);
+			path = wildflower;
+			sourceTree = "<group>";
+		};
+		AA0000692F7094900089F762 /* stratosphere */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000652F7094900089F762 /* stratosphere-light.jpg */,
+				AA0000662F7094900089F762 /* stratosphere-dark.jpg */,
+			);
+			path = stratosphere;
+			sourceTree = "<group>";
+		};
+		AA0000732F7094900089F762 /* tropical-shore */ = {
+			isa = PBXGroup;
+			children = (
+				AA00006F2F7094900089F762 /* tropical-shore-light.jpg */,
+				AA0000702F7094900089F762 /* tropical-shore-dark.jpg */,
+			);
+			path = "tropical-shore";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371436CD2F5E59B6000EDD49 /* HaWake Alarm V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371436EF2F5E59B8000EDD49 /* Build configuration list for PBXNativeTarget "HaWake Alarm V2" */;
+			buildPhases = (
+				371436CA2F5E59B6000EDD49 /* Sources */,
+				371436CB2F5E59B6000EDD49 /* Frameworks */,
+				371436CC2F5E59B6000EDD49 /* Resources */,
+				37DF04B52F6425C600CB6F05 /* Embed Foundation Extensions */,
+				374FEFBA2F8216DB0046067D /* Embed Watch Content */,
+				FB00000000000000000000D1 /* Upload Crashlytics dSYMs */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				371436D02F5E59B6000EDD49 /* HaWake Alarm V2 */,
+			);
+			name = "HaWake Alarm V2";
+			packageProductDependencies = (
+				371437192F5E5B92000EDD49 /* CocoaMQTT */,
+				FB00000000000000000000B1 /* FirebaseAnalytics */,
+				FB00000000000000000000B2 /* FirebaseCrashlytics */,
+				FB00000000000000000000B3 /* FirebaseMessaging */,
+			);
+			productName = "HaWake Alarm V2";
+			productReference = 371436CE2F5E59B6000EDD49 /* HaWake Alarm V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371436DA2F5E59B8000EDD49 /* HaWake Alarm V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371436F22F5E59B8000EDD49 /* Build configuration list for PBXNativeTarget "HaWake Alarm V2Tests" */;
+			buildPhases = (
+				371436D72F5E59B8000EDD49 /* Sources */,
+				371436D82F5E59B8000EDD49 /* Frameworks */,
+				371436D92F5E59B8000EDD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371436DD2F5E59B8000EDD49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				371436DE2F5E59B8000EDD49 /* HaWake Alarm V2Tests */,
+			);
+			name = "HaWake Alarm V2Tests";
+			productName = "HaWake Alarm V2Tests";
+			productReference = 371436DB2F5E59B8000EDD49 /* HaWake Alarm V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		371436E42F5E59B8000EDD49 /* HaWake Alarm V2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371436F52F5E59B8000EDD49 /* Build configuration list for PBXNativeTarget "HaWake Alarm V2UITests" */;
+			buildPhases = (
+				371436E12F5E59B8000EDD49 /* Sources */,
+				371436E22F5E59B8000EDD49 /* Frameworks */,
+				371436E32F5E59B8000EDD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371436E72F5E59B8000EDD49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				371436E82F5E59B8000EDD49 /* HaWake Alarm V2UITests */,
+			);
+			name = "HaWake Alarm V2UITests";
+			productName = "HaWake Alarm V2UITests";
+			productReference = 371436E52F5E59B8000EDD49 /* HaWake Alarm V2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371436C62F5E59B6000EDD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					371436CD2F5E59B6000EDD49 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					371436DA2F5E59B8000EDD49 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 371436CD2F5E59B6000EDD49;
+					};
+					371436E42F5E59B8000EDD49 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 371436CD2F5E59B6000EDD49;
+					};
+				};
+			};
+			buildConfigurationList = 371436C92F5E59B6000EDD49 /* Build configuration list for PBXProject "HaWake Alarm V2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371436C52F5E59B6000EDD49;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				371437182F5E5B92000EDD49 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+				FB00000000000000000000A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 371436CF2F5E59B6000EDD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371436CD2F5E59B6000EDD49 /* HaWake Alarm V2 */,
+				371436DA2F5E59B8000EDD49 /* HaWake Alarm V2Tests */,
+				371436E42F5E59B8000EDD49 /* HaWake Alarm V2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371436CC2F5E59B6000EDD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				37E4CBF52F78C3BA00D14820 /* palm-dusk-dark.jpg in Resources */,
+				370FF33C2F6F96640089F762 /* alarm_presets.json in Resources */,
+				AA0000032F7094900089F762 /* coastal-waters-light.jpg in Resources */,
+				AA0000042F7094900089F762 /* coastal-waters-dark.jpg in Resources */,
+				AA00000D2F7094900089F762 /* verdant-light.jpg in Resources */,
+				37E4CBFD2F78C3BB00D14820 /* ember-tide-dark.jpg in Resources */,
+				37E4CBFF2F78C3BB00D14820 /* velvet-bloom-light.jpg in Resources */,
+				AA00000E2F7094900089F762 /* verdant-dark.jpg in Resources */,
+				AA0000172F7094900089F762 /* moonrise-light.jpg in Resources */,
+				AA0000182F7094900089F762 /* moonrise-dark.jpg in Resources */,
+				37E4CBF12F78C3AF00D14820 /* terminal-drift-dark.jpg in Resources */,
+				AA0000212F7094900089F762 /* neon-silk-light.jpg in Resources */,
+				37E4CBFB2F78C3BA00D14820 /* ember-tide-light.jpg in Resources */,
+				37E4CBF72F78C3BA00D14820 /* prism-glow-light.jpg in Resources */,
+				AA0000222F7094900089F762 /* neon-silk-dark.jpg in Resources */,
+				AA00002B2F7094900089F762 /* wild-frontier-light.jpg in Resources */,
+				AA00002C2F7094900089F762 /* wild-frontier-dark.jpg in Resources */,
+				AA0000352F7094900089F762 /* urban-glow-light.jpg in Resources */,
+				AA0000362F7094900089F762 /* urban-glow-dark.jpg in Resources */,
+				AA00003F2F7094900089F762 /* city-pulse-light.jpg in Resources */,
+				37E4CBEF2F78C3AF00D14820 /* terminal-drift-light.jpg in Resources */,
+				37E4CC052F78C3BB00D14820 /* amethyst-storm-dark.jpg in Resources */,
+				AA0000402F7094900089F762 /* city-pulse-dark.jpg in Resources */,
+				AA0000492F7094900089F762 /* golden-peak-light.jpg in Resources */,
+				AA00004A2F7094900089F762 /* golden-peak-dark.jpg in Resources */,
+				37E4CC032F78C3BB00D14820 /* amethyst-storm-light.jpg in Resources */,
+				AA0000532F7094900089F762 /* alpine-road-light.jpg in Resources */,
+				37E4CBF92F78C3BA00D14820 /* prism-glow-dark.jpg in Resources */,
+				37E4CC012F78C3BB00D14820 /* velvet-bloom-dark.jpg in Resources */,
+				37E4CBDB2F78C02000D14820 /* HaWakeProConfiguration.storekit in Resources */,
+				AA0000542F7094900089F762 /* alpine-road-dark.jpg in Resources */,
+				AA00005D2F7094900089F762 /* wildflower-light.jpg in Resources */,
+				AA00005E2F7094900089F762 /* wildflower-dark.jpg in Resources */,
+				37E4CBF32F78C3BA00D14820 /* palm-dusk-light.jpg in Resources */,
+				AA0000672F7094900089F762 /* stratosphere-light.jpg in Resources */,
+				AA0000682F7094900089F762 /* stratosphere-dark.jpg in Resources */,
+				AA0000712F7094900089F762 /* tropical-shore-light.jpg in Resources */,
+				AA0000722F7094900089F762 /* tropical-shore-dark.jpg in Resources */,
+				370FF33A2F6F964B0089F762 /* home_presets.json in Resources */,
+			);
+		};
+		371436D92F5E59B8000EDD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		371436E32F5E59B8000EDD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB00000000000000000000D1 /* Upload Crashlytics dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+				"$(SRCROOT)/HaWake Alarm V2/GoogleService-Info.plist",
+				"$(BUILD_DIR)/../../SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run",
+			);
+			name = "Upload Crashlytics dSYMs";
+			shellPath = /bin/sh;
+			shellScript = (
+				"# Uploads dSYMs so Crashlytics reports carry symbols instead of hex addresses.",
+				"#",
+				"# -gsp is explicit because user script sandboxing is ON: the phase can only",
+				"# read paths declared in Input Files, and upload-symbols would otherwise go",
+				"# looking for GoogleService-Info.plist inside the built .app and be denied.",
+				"#",
+				"# GoogleService-Info.plist is gitignored, so a fresh clone will not have one.",
+				"# Skip rather than fail — that keeps the project buildable without Firebase",
+				"# credentials, matching FirebaseBootstrap.configureIfNeeded().",
+				"GSP=\"${SRCROOT}/HaWake Alarm V2/GoogleService-Info.plist\"",
+				"if [ ! -f \"$GSP\" ]; then",
+				"  echo \"note: GoogleService-Info.plist not present - skipping Crashlytics dSYM upload\"",
+				"  exit 0",
+				"fi",
+				"\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\" -gsp \"$GSP\"",
+				"",
+			);
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371436CA2F5E59B6000EDD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		371436D72F5E59B8000EDD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		371436E12F5E59B8000EDD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371436DD2F5E59B8000EDD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371436CD2F5E59B6000EDD49 /* HaWake Alarm V2 */;
+			targetProxy = 371436DC2F5E59B8000EDD49 /* PBXContainerItemProxy */;
+		};
+		371436E72F5E59B8000EDD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371436CD2F5E59B6000EDD49 /* HaWake Alarm V2 */;
+			targetProxy = 371436E62F5E59B8000EDD49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		371436ED2F5E59B8000EDD49 /* Debug configuration for PBXProject "HaWake Alarm V2" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		371436EE2F5E59B8000EDD49 /* Release configuration for PBXProject "HaWake Alarm V2" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		371436F02F5E59B8000EDD49 /* Debug configuration for PBXNativeTarget "HaWake Alarm V2" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HaWake Alarm V2/HaWake Alarm V2.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HaWake-Alarm-V2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Allarise;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allarise connects to your local MQTT broker for Home Assistant integration.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allarise needs your location to detect your home WiFi network for automatic MQTT broker switching, also used for weather.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Allarise uses motion data to detect shaking for shake-to-dismiss alarm missions.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.2.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "domoretech.HaWake-Alarm-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		371436F12F5E59B8000EDD49 /* Release configuration for PBXNativeTarget "HaWake Alarm V2" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HaWake Alarm V2/HaWake Alarm V2.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HaWake-Alarm-V2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Allarise;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allarise connects to your local MQTT broker for Home Assistant integration.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allarise needs your location to detect your home WiFi network for automatic MQTT broker switching, also used for weather.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Allarise uses motion data to detect shaking for shake-to-dismiss alarm missions.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.2.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "domoretech.HaWake-Alarm-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		371436F32F5E59B8000EDD49 /* Debug configuration for PBXNativeTarget "HaWake Alarm V2Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "domoretech.HaWake-Alarm-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaWake Alarm V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaWake Alarm V2";
+			};
+			name = Debug;
+		};
+		371436F42F5E59B8000EDD49 /* Release configuration for PBXNativeTarget "HaWake Alarm V2Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "domoretech.HaWake-Alarm-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaWake Alarm V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaWake Alarm V2";
+			};
+			name = Release;
+		};
+		371436F62F5E59B8000EDD49 /* Debug configuration for PBXNativeTarget "HaWake Alarm V2UITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "domoretech.HaWake-Alarm-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HaWake Alarm V2";
+			};
+			name = Debug;
+		};
+		371436F72F5E59B8000EDD49 /* Release configuration for PBXNativeTarget "HaWake Alarm V2UITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "domoretech.HaWake-Alarm-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HaWake Alarm V2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371436C92F5E59B6000EDD49 /* Build configuration list for PBXProject "HaWake Alarm V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371436ED2F5E59B8000EDD49 /* Debug configuration for PBXProject "HaWake Alarm V2" */,
+				371436EE2F5E59B8000EDD49 /* Release configuration for PBXProject "HaWake Alarm V2" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		371436EF2F5E59B8000EDD49 /* Build configuration list for PBXNativeTarget "HaWake Alarm V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371436F02F5E59B8000EDD49 /* Debug configuration for PBXNativeTarget "HaWake Alarm V2" */,
+				371436F12F5E59B8000EDD49 /* Release configuration for PBXNativeTarget "HaWake Alarm V2" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		371436F22F5E59B8000EDD49 /* Build configuration list for PBXNativeTarget "HaWake Alarm V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371436F32F5E59B8000EDD49 /* Debug configuration for PBXNativeTarget "HaWake Alarm V2Tests" */,
+				371436F42F5E59B8000EDD49 /* Release configuration for PBXNativeTarget "HaWake Alarm V2Tests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		371436F52F5E59B8000EDD49 /* Build configuration list for PBXNativeTarget "HaWake Alarm V2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371436F62F5E59B8000EDD49 /* Debug configuration for PBXNativeTarget "HaWake Alarm V2UITests" */,
+				371436F72F5E59B8000EDD49 /* Release configuration for PBXNativeTarget "HaWake Alarm V2UITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		371437182F5E5B92000EDD49 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.2;
+			};
+		};
+		FB00000000000000000000A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		371437192F5E5B92000EDD49 /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371437182F5E5B92000EDD49 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+		FB00000000000000000000B1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB00000000000000000000A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FB00000000000000000000B2 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB00000000000000000000A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FB00000000000000000000B3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB00000000000000000000A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 371436C62F5E59B6000EDD49 /* Project object */;
+}
